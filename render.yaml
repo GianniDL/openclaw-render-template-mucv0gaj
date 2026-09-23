@@ -3,6 +3,7 @@ services:
     runtime: docker
     name: AlphaClaw
     plan: starter
+    region: frankfurt
     healthCheckPath: /health
     envVars:
       - key: SETUP_PASSWORD
